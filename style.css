@@ -292,6 +292,100 @@ html {
   list-style-type: square;
 }
 
+/* --------- Small devices: Phones --------- */
+@media (max-width: 480px) {
+  .navArrangement {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navArrangement li {
+    display: block;
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
+
+  .pic {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile_pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profileName {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  #home,
+  #about,
+  #skills,
+  #education,
+  #experience,
+  #projects {
+    padding: 20px 10px;
+    margin: 20px 10px;
+  }
+
+  #home div,
+  #about div,
+  #skills div,
+  #education div,
+  #experience div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #home ul,
+  #skills ul,
+  #projects ul,
+  #experience ul {
+    padding-left: 20px;
+  }
+}
+
+/* --------- Medium devices: Tablets --------- */
+@media (max-width: 768px) {
+  .navArrangement {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navArrangement li {
+    padding: 10px 40px;
+    margin: 5px;
+  }
+
+  .pic {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile_pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profileName {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #home,
+  #about,
+  #skills,
+  #education,
+  #experience,
+  #projects {
+    padding: 30px 15px;
+    margin: 30px 15px;
+  }
+}
+
 /*footer*/
 footer {
   font-family: "Poppins", sans-serif;
