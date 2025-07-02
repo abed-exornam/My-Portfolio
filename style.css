@@ -59,8 +59,12 @@ html {
   display: flex;
   justify-content: space-evenly;
 }
+.navArrangement a {
+  font-size: 16px;
+}
 .navArrangement li {
-  padding: 10px 70px;
+  font-size: 16px;
+  padding: 10px 40px;
   margin: 0px 10px;
   border-bottom: #77a5eb 2px solid;
   border-radius: 5px;
@@ -128,6 +132,9 @@ html {
   color: #1a1a1a;
   font-family: "Quicksand", sans-serif;
 }
+#home li {
+  font-size: 14px;
+}
 
 /* About*/
 #about {
@@ -158,6 +165,7 @@ html {
   padding: 10px;
 }
 #about p {
+  font-size: 14px;
   margin: auto 20px;
   font-family: "Poppins", sans-serif;
 }
@@ -194,6 +202,9 @@ html {
   font-family: "Poppins", sans-serif;
   list-style-type: square;
 }
+#skills li {
+  font-size: 14px;
+}
 
 /*education*/
 #education {
@@ -224,6 +235,7 @@ html {
   padding: 10px;
 }
 #education p {
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -256,13 +268,16 @@ html {
   font-family: "Poppins", sans-serif;
 }
 #experience p {
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
 }
 #experience ul {
   font-family: "Poppins", sans-serif;
   list-style-type: square;
 }
-
+#experience li {
+  font-size: 14px;
+}
 /*projects*/
 #projects {
   display: flex;
@@ -291,6 +306,9 @@ html {
   font-family: "Poppins", sans-serif;
   list-style-type: square;
 }
+#projects li {
+  font-size: 14px;
+}
 
 /* --------- Small devices: Phones --------- */
 @media (max-width: 480px) {
@@ -302,7 +320,11 @@ html {
   .navArrangement li {
     display: block;
     padding: 10px 20px;
-    margin: 5px 0;
+    margin: 8px 0;
+  }
+
+  .navArrangement a {
+    font-size: 14px; /* Fixed size */
   }
 
   .pic {
