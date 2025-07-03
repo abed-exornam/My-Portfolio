@@ -39,7 +39,7 @@ html {
   background-size: cover;
   border-radius: 10px;
   display: flex;
-  margin: auto 20px;
+  margin: auto 2px;
   justify-content: center;
   padding: 25px;
   align-items: center;
@@ -324,7 +324,7 @@ html {
 
   .navArrangement li {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 10px;
     margin: 8px 0;
   }
 
@@ -385,7 +385,7 @@ html {
   }
 
   .navArrangement li {
-    padding: 10px 40px;
+    padding: 10px 20px;
     margin: 5px;
   }
 
