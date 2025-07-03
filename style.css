@@ -331,6 +331,12 @@ html {
     margin: 8px 0;
   }
 
+  .navArrangement li:hover {
+    display: block;
+    padding: 10px 10px;
+    margin: 8px 0;
+  }
+
   .navArrangement a {
     font-size: 14px; /* Fixed size */
     display: block;
