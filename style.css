@@ -417,8 +417,21 @@ html {
 
 /*footer*/
 footer {
+  display: flex;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1a1a1a;
+  font-family: "Poppins", sans-serif;
+}
+footer a:visited {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-family: "Poppins", sans-serif;
 }
