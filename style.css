@@ -421,7 +421,7 @@ footer {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
 }
 footer a:link {
