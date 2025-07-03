@@ -12,6 +12,9 @@ html {
   display: block;
   box-shadow: #1a1a1a 2px 2px 10px;
 }
+.profileName h2 {
+  color: aliceblue;
+}
 
 /*icons*/
 .icons {
